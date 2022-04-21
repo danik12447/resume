@@ -6,20 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Учебная веб-страница" />
     <meta name="keywords" content="html, css, course, tags" />
+    <link rel="stylesheet" href="style.css" />
     <title>Test</title>
   </head>
   <body>
-    <img src="MVIMG_20191110_183037.jpg" alt="profile photo" width="300" />
-    <header>
+    <img src="MVIMG_20191110_183037.png" alt="profile photo" width="150" />
+    <header id="header" class="card" style="margin-top: 20px">
       <h1>Даниил Бордаков</h1>
       <p>
         <strong>Выпускник</strong><em></em> МГТУ им. Н. Э. Баумана,
         <strong>инженер</strong>, будущий <strong>фронтэндер</strong>.
       </p>
       <p>Люблю <em>музыку</em>, <em>кино</em> и интересных <em>людей</em>.</p>
-      <hr />
     </header>
-    <div>
+    <div class="card">
       <h2><strong>Мои хобби:</strong></h2>
       <ol>
         <li>кино</li>
@@ -36,7 +36,8 @@
         </li>
         <li>курить бамбук</li>
       </ol>
-      <hr />
+    </div>
+    <div class="card">
       <h2>Опыт работы:</h2>
       <table>
         <thead>
@@ -70,10 +71,8 @@
         </tbody>
       </table>
     </div>
-    <hr />
-    <br />
     <div>
-      <h2>Связаться со мной</h2>
+      <h2>Связаться со мной:</h2>
       <form>
         <div>
           <label for="txt">Ваше имя: </label>
